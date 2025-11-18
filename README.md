@@ -7,11 +7,11 @@
 
 An end-to-end machine learning application designed to predict industrial machine failures before they occur. Utilizing a **Random Forest Classifier**, this tool analyzes sensor data (temperature, torque, rotational speed) to classify equipment status, enabling proactive predictive maintenance strategies.
 
----
+
 
 ## 🔗 Quick Links
 * **📓 Google Colab Notebook:** [View Code & Analysis](https://colab.research.google.com/)
-* **📂 Kaggle Dataset:** [View Dataset Source](https://www.kaggle.com/) ---
+* **📂 Kaggle Dataset:** [View Dataset Source](https://www.kaggle.com/) 
 
 ## 📊 Project Overview
 Predictive maintenance is a critical technique in modern industry to reduce downtime and maintenance costs. This project leverages a synthetic dataset of **10,000 data points** to simulate real-world sensor readings.
@@ -21,7 +21,6 @@ Predictive maintenance is a critical technique in modern industry to reduce down
 * **Interactive Interface:** Built with Streamlit for easy parameter adjustment.
 * **Robust Modeling:** Uses Random Forest to handle complex interactions between features like Tool Wear and Torque.
 
----
 
 ## 🗂️ Dataset Description
 The dataset consists of **10,000 rows** and **14 features**, reflecting real predictive maintenance scenarios.
@@ -39,14 +38,14 @@ The dataset consists of **10,000 rows** and **14 features**, reflecting real pre
 
 > **⚠️ Important Note:** The dataset contains two targets. Care was taken during training to avoid **data leakage** by excluding the secondary target variable from the feature set.
 
----
+
 
 ## 🧠 Model Details
 * **Algorithm:** Random Forest Classifier.
 * **Reasoning:** Chosen for its ability to handle both numerical and categorical data, prevent overfitting through ensemble learning, and capture non-linear relationships between sensor readings.
 * **Training:** Trained on a synthetic dataset mirroring real industrial physics.
 
----
+
 
 ## 🛠️ Installation & Usage
 
